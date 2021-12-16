@@ -22,7 +22,7 @@
 
 ## Class Diagram
 
-![Screenshot](https://raw.githubusercontent.com/cs100/final-project-nmelw002-ple061-stong019-tsee001/master/Quiz%20Maker%20UML%20Diagram.png?token=APMEK2WNI7W3EHSNPRPMLCTBV54CM)
+![Screenshot](https://scontent-lax3-1.xx.fbcdn.net/v/t1.15752-9/257581551_304969741289562_6607229885496913162_n.png?_nc_cat=102&ccb=1-5&_nc_sid=ae9488&_nc_ohc=_mAIMIQhvecAX_Gr_eC&_nc_ht=scontent-lax3-1.xx&oh=03_AVJIuEYC1UFZHdW4MvYLF7iK6l2ZploGdvm2i4NrmWRVog&oe=61DFA82A)
   First, we have the main driver class “Quiz” which contains a vector of Question objects. The quiz class has two functions: createQs which utilizes the Question Maker classes to import questions and testOutput which utilizes the Test Output class to export the created quiz. 
 
  The Question Maker(QM) class's goal is to parse the user's input and create Question objects. It is part of two design patterns. The first is a strategy pattern that we use to switch out algorithms (based on file formats) for parsing the user's input. There are three subclasses for three different types of file inputs (Yaml, JSON, and TXT).
